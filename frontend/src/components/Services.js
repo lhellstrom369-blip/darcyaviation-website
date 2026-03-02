@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaGraduationCap, FaTools, FaPlane, FaDrone, FaCheckCircle } from 'react-icons/fa';
+import { FaGraduationCap, FaTools, FaPlane, FaCamera, FaCheckCircle } from 'react-icons/fa';
 import './Services.css';
 
 const Services = () => {
@@ -41,7 +41,7 @@ const Services = () => {
       ]
     },
     {
-      icon: <FaDrone />,
+      icon: <FaCamera />,
       title: 'Drone Services',
       description: 'Professional drone photography and Part 107 training services',
       features: [
